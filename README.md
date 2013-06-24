@@ -4,8 +4,9 @@ elementary meets GNOME Shell
 
 
 
-### For Contributors:
+### Before you contribute:
 
+- Please do not change colors, border widths, shadows... Unless you know what you're doing.
 
 ### Screenshots
 
