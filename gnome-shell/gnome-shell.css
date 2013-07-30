@@ -682,6 +682,7 @@ StScrollBar StButton#vhandle:active {
 .workspace-thumbnails {
     border-radius: 4px;
     spacing: 3px;
+    visible-width: 16px; /* Amount visible before hovering */
 }
 
 .workspace-thumbnail-indicator {
