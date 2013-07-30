@@ -1888,6 +1888,13 @@ spacing: 0px;
 
 /* End Session Dialog */
 .end-session-dialog {
+	
+	
+spacing: 10px;
+}
+
+.end-session-dialog .modal-dialog-button:last-child {
+
     color: rgba(255,255,255,0.9);
     background-gradient-start: #E15A4D;
     background-gradient-end: #CD3436;
