@@ -1,5 +1,4 @@
 
-
 /* Text Styles */
 
 /* default text style */
@@ -311,19 +310,76 @@ StScrollBar StButton#vhandle:active {
 .notification-button:focus,
 .notification-icon-button:focus,
 .hotplug-notification-item:focus,
-.modal-dialog-button:focus,
-.app-view-control:focus {
+.modal-dialog-button:focus{
     border: 1px solid #8b8b8b;
 }
 
-.app-view-control:focus {
-    padding: 3px;
+.app-view-control {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 0px;
+    border-top: 1px solid rgba(255,255,255,0);
+    border-bottom: 1px solid rgba(255,255,255,0);
+    font-size: 11pt;
+    height: 20px;
+    width: 130px;
+    padding: 3px 0px 3px 15px;
 }
 
-.app-view-control:first-child:ltr:focus,
-.app-view-control:last-child:rtl:focus {
-    border-right-width: 1px;
+.app-view-control:first-child {
+    border-radius: 5px 5px 0 0;
 }
+
+.app-view-control:last-child {
+    border-radius: 0 0 5px 5px ;
+}
+
+.app-view-control:hover {
+    color: #fff;
+    border: 1px  rgba(255,255,255,0);
+    background-color: #3D95E7;
+    box-shadow: inset 1px 1px 0px rgba(255,255,255,0.4);
+    text-shadow: rgba(0,0,0,0.4) 0px 1px 0px;
+    padding: 4px 0px 4px 15px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.app-view-control:hover:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.app-view-control:hover:last-child {
+    border-radius: 0 0 5px 5px ;
+}
+
+.app-view-control:selected {
+    color: #fff;
+    border: 1px  rgba(255,255,255,0);
+    background-color: #3D95E7;
+    box-shadow: inset 1px 1px 0px 0px rgba(255,255,255,0.0);
+    text-shadow: rgba(0,0,0,0.4) 0px 1px 0px;
+    padding: 4px 0px 4px 15px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.app-view-control:selected:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.app-view-control:selected:last-child {
+    border-radius: 0 0 5px 5px ;
+}
+
+.app-view-control:selected:rtl {
+}
+
+.app-view-control:focus {
+    outline: 1px solid #aaa;
+}
+
 
 
 .dash-search-button:active,
